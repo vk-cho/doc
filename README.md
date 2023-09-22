@@ -143,7 +143,7 @@ $criteria->compare('ps_name', $this->ps_name, true, 'AND', false);
 
 #### Обернуть в span свойство в CGridView
 ```php
-'value' = >function($data) {
+'value' => function($data) {
     return '<span>' . CHtml::encode($data->column_name) . '</span>';
 },
 ```
